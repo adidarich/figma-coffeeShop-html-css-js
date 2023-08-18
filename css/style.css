@@ -205,7 +205,7 @@ p {
     font-weight: 900;
     color: #FFF;
     text-transform: uppercase;
-    max-width: 512px;
+    width: 512px;
     margin-bottom: 35px;
     line-height: 144%;
 }
@@ -428,3 +428,139 @@ p {
     color: #C7A17A;
 }
 /* End Footer */
+
+/* Start Menu */
+.menu {
+    margin-top: 100px;
+}
+
+.menu h1 {
+    width: 100%;
+}
+
+.menu_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+
+.menu_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 780px;
+    height: 520px;
+    background-color: #14141D;
+    border-radius: 10px;
+}
+
+.menu_image img {
+    width: 195px;
+    height: 400px;
+}
+
+.menu_items {
+    padding: 30px;
+    width: 400px;
+    height: 249px;
+    background-color: #14141D;
+    border-radius: 10px;
+}
+
+.menu_price {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.menu_price span {
+    color: #818181;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+
+.menu_item {
+    display: flex;
+    margin-bottom: 39px;
+}
+
+.menu_choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none; /* убирает маркеры */
+
+    max-width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    padding: 9px 19px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.menu_choose.active {
+    color: #C7A17A;
+}
+
+.menu_btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 340px;
+    height: 50px;
+    background-color: #C7A17A;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.menu_btn:hover {
+    background-color: #af865c;
+}
+
+.menu_btn a {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/* End Menu */
+
+/* Start Description */
+.description {
+    margin-top: 80px;
+}
+
+.description_text {
+    padding: 30px;
+    height: 310px;
+    border-radius: 10px;
+    background-color: #14141D;
+    margin-top: 17px;
+}
+
+.description_text li {
+    color: #DFDFDF;
+}
+/* End Description */
+
+/* Start Other_Products */
+.other_products {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+/* End Other_Products */
+
